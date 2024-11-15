@@ -1,7 +1,7 @@
 {
   "name": "gaia-react-chatbot-widget",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -11,6 +11,34 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0",
+    "react-dom": "^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0"
+  },
+  "files": [
+    "build"
+  ],
+  "npmName": "gaia-react-chatbot-widget",
+  "npmFileMap": [
+    {
+      "basePath": "/build/",
+      "files": [
+        "*.js"
+      ]
+    }
+  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -35,5 +63,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "keywords": [
+    "react",
+    "fiscal-year-calendar",
+    "react-component",
+    "fiscal-calendar"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jayeshkattar/gaia-react-chatbot-widget"
   }
 }
